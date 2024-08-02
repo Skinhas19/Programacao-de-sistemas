@@ -1,0 +1,14 @@
+L0 RW A 
+RW B 
+LA A
+ADD B
+SA A
+PW A
+RW C
+RW D
+LA C
+SUB D
+SA A
+PW A
+JLT L0
+STOP

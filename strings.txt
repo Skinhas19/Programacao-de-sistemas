@@ -1,0 +1,11 @@
+A space 1
+B space 1
+RW A 
+LA A
+L JEQ END
+RW B
+SUB B
+JEQ L
+SA A
+PW A
+END STOP
